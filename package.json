@@ -9,18 +9,18 @@
         "votes"
 		],
     "version": "0.1.0",
-    "homepage": "http://scottcorgan.github.com/wilson.js",
+    "homepage": "https://github.com/mumme/ranking",
     "author": {
         "name": "Rafael Mumme",
         "email": "rafael.mumme@gmail.com"
     },
     "repository": {
         "type": "git",
-        "url": "git@github.com:scottcorgan/wilson.js.git"
+        "url": "git@github.com:mumme/ranking.git"
     },
     "bugs": {
         "email": "rafael.mumme@gmail.com",
-        "url": "https://github.com/scottcorgan/wilson.js/issues"
+        "url": "https://github.com/mumme/ranking/issues"
     },
     "engines": {
     	"node": ">=0.6.9"
