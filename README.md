@@ -20,7 +20,7 @@ var bayesianScore = Raking.bayesian(ratings);
 var amazonScore = Raking.amazon(ratings);
 ```
 
-### Output Example
+## Output Example
 
 ```js
 	amazonScore = {
