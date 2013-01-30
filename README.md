@@ -1,6 +1,6 @@
 # NodeJS library for smart ranking
 
-# Instalation
+# Installation
 
 ```
 npm install smart-ranking
