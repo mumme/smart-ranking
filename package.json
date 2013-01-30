@@ -1,33 +1,34 @@
 {
-    "name": "rating",
-    "description": "NodeJS Library for smart ranking.",
+    "name": "smart-ranking",
+    "description": "NodeJS library for smart ranking.",
     "keywords": [
         "amazon",
         "bayesian",
         "rating",
+        "ranking",
         "rank",
         "votes"
 		],
     "version": "0.1.0",
-    "homepage": "https://github.com/mumme/ranking",
+    "homepage": "https://github.com/mumme/smart-ranking",
     "author": {
         "name": "Rafael Mumme",
         "email": "rafael.mumme@gmail.com"
     },
     "repository": {
         "type": "git",
-        "url": "git@github.com:mumme/ranking.git"
+        "url": "git@github.com:mumme/smart-ranking.git"
     },
     "bugs": {
         "email": "rafael.mumme@gmail.com",
-        "url": "https://github.com/mumme/ranking/issues"
+        "url": "https://github.com/mumme/smart-ranking/issues"
     },
     "engines": {
     	"node": ">=0.6.9"
     },
-	"main": "./rating.js",
+	"main": "./smart-ranking.js",
     "readme": "NodeJS Library for smart ranking.",
     "readmeFilename": "README.md",
-    "_id": "ranking@0.1.0",
-    "_from": "ranking@"
+    "_id": "smart-ranking@0.1.0",
+    "_from": "smart-ranking@"
 }

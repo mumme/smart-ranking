@@ -1,26 +1,26 @@
-# NodeJS Library for smart ranking
+# NodeJS library for smart ranking
 
 # Instalation
 
 ```
-npm install ranking
+npm install smart-ranking
 ```
 
 ## How to use it
 
 ```js
-var Raking = require('ranking');
+var Ranking = require('smart-ranking');
 
 var ratings = [
     { votes: [3,2,1], id:'Item 1' },
     { votes: [1,2,3,4,5], id:'Item 2' }
 ];
 
-var bayesianScore = Raking.bayesian(ratings);
-var amazonScore = Raking.amazon(ratings);
+var bayesianScore = Ranking.bayesian(ratings);
+var amazonScore = Ranking.amazon(ratings);
 ```
 
-## Output Example
+## Output example
 
 ```js
 	amazonScore = {

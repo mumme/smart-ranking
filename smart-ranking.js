@@ -7,7 +7,7 @@
         ];
     */
 
-    var Rating = (function() {
+    var Ranking = (function() {
         
         var _getStats = function(ratings){
             
@@ -96,7 +96,6 @@
         
     })();
     
-    module.exports = Rating;
+    module.exports = Ranking;
     
 })();
- 
