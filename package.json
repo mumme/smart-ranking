@@ -1,0 +1,33 @@
+{
+    "name": "rating",
+    "description": "NodeJS Library for smart ranking.",
+    "keywords": [
+        "amazon",
+        "bayesian",
+        "rating",
+        "rank",
+        "votes"
+		],
+    "version": "0.1.0",
+    "homepage": "http://scottcorgan.github.com/wilson.js",
+    "author": {
+        "name": "Rafael Mumme",
+        "email": "rafael.mumme@gmail.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:scottcorgan/wilson.js.git"
+    },
+    "bugs": {
+        "email": "rafael.mumme@gmail.com",
+        "url": "https://github.com/scottcorgan/wilson.js/issues"
+    },
+    "engines": {
+    	"node": ">=0.6.9"
+    },
+	"main": "./rating.js",
+    "readme": "NodeJS Library for smart ranking.",
+    "readmeFilename": "README.md",
+    "_id": "ranking@0.1.0",
+    "_from": "ranking@"
+}
