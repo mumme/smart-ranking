@@ -75,23 +75,23 @@ Two different outputs are available:
 
 Parameters:
 * ratings (Array)
-	Array with data 
+	* Array with data 
 	- see input options above
 * returnArray (boolean)
-	If true, the method returns an array
-	If false, the method returns an object
+	* If true, the method returns an array
+	* If false, the method returns an object
 	- see output options above 
 * min (integer)
-	Number of reviews required to be listed
+	* Number of reviews required to be listed
 
 ### Ranking.bayesian(ratings, returnArray);
 
 Parameters:
 * ratings (Array)
-	Array with data 
+	* Array with data 
 	- see input options above
 * returnArray (boolean)
-	If true, the method returns an array
-	If false, the method returns an object
+	* If true, the method returns an array
+	* If false, the method returns an object
 	- see output options above
 
