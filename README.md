@@ -76,11 +76,11 @@ Two different outputs are available:
 Parameters:
 * ratings (Array)
 	* Array with data 
-	- see input options above
+	** see input options above
 * returnArray (boolean)
 	* If true, the method returns an array
 	* If false, the method returns an object
-	- see output options above 
+	** see output options above 
 * min (integer)
 	* Number of reviews required to be listed
 
@@ -93,5 +93,5 @@ Parameters:
 * returnArray (boolean)
 	* If true, the method returns an array
 	* If false, the method returns an object
-	- see output options above
+	** see output options above
 
