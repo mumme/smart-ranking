@@ -74,24 +74,24 @@ Two different outputs are available:
 ### Ranking.imdb(ratings, returnArray, min);
 
 Parameters:
-. ratings (Array)
+* ratings (Array)
 	Array with data 
-	* see input options above
-. returnArray (boolean)
+	- see input options above
+* returnArray (boolean)
 	If true, the method returns an array
 	If false, the method returns an object
-	* see output options above 
-. min (integer)
+	- see output options above 
+* min (integer)
 	Number of reviews required to be listed
 
 ### Ranking.bayesian(ratings, returnArray);
 
 Parameters:
-. ratings (Array)
+* ratings (Array)
 	Array with data 
-	* see input options above
-. returnArray (boolean)
+	- see input options above
+* returnArray (boolean)
 	If true, the method returns an array
 	If false, the method returns an object
-	* see output options above
+	- see output options above
 
