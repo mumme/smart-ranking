@@ -25,23 +25,26 @@ var imdbScore = Ranking.imdb(ratings);
 Three different inputs are accepted:
 
 ```js
+// Input 1: raw votes
 var ratings = [
-    { votes: [3,2,1], id:'Batman' },
-    { votes: [1,2,3,4,5], id:'Robin' }
+    { votes: [3,2,1], 	  id:'Batman' },
+    { votes: [1,2,3,4,5], id:'Robin'  }
 ];
 ```
 
 ```js
+// Input 2: vote sum & total (with id object)
 var ratings = [
 	{ sumVotes: 10, numVotes:3, _id:{ id:'Batman' } },
-	{ sumVotes: 10, numVotes:3, _id:{ id:'Robin' } }
+	{ sumVotes: 10, numVotes:3, _id:{ id:'Robin'  } }
 ];
 ```
 
 ```js
+// Input 3: vote sum & total (with id string)
 var ratings = [
 	{ sumVotes: 10, numVotes:3, id:'Batman' },
-	{ sumVotes: 10, numVotes:3, id:'Robin' }
+	{ sumVotes: 10, numVotes:3, id:'Robin'  }
 ];
 ```
 
@@ -50,7 +53,7 @@ var ratings = [
 Two different outputs are available:
 
 ```js
-	// returns an object
+	// Output 1: returns an object
 	var imdbScore = Ranking.imdb(ratings);
 	imdbScore = {
 		"Item 1":{"id":"Item 1","sumVotes":6,"numVotes":3,"avgRating":2,"score":2.3125},
@@ -61,7 +64,7 @@ Two different outputs are available:
 ```
 
 ```js
-	// returns an array
+	// Output 2: returns an array
 	var imdbScore = Ranking.imdb(ratings, true);
 	imdbScore = [
 		{"id":"Item 1","sumVotes":6,"numVotes":3,"avgRating":2,"score":2.3125},
@@ -69,29 +72,32 @@ Two different outputs are available:
 	]
 ```
 
-## Api
 
-### Ranking.imdb(ratings, returnArray, min);
+## API
+
+
+### `Ranking.imdb(ratings, returnArray, min);`
 
 Parameters:
-* ratings (Array)
-	* Array with data 
-	** see input options above
-* returnArray (boolean)
-	* If true, the method returns an array
-	* If false, the method returns an object
-	** see output options above 
-* min (integer)
+* `ratings (Array)`
+	* `Array` with data 
+	** See [Input](#input) (above)
+* `returnArray (boolean)`
+	* If `true`,  the method returns an `Array`
+	* If `false`, the method returns an `object`
+	** See [Output](#output) (above)
+* `min (integer)`
 	* Number of reviews required to be listed
 
-### Ranking.bayesian(ratings, returnArray);
+
+### `Ranking.bayesian(ratings, returnArray);`
 
 Parameters:
-* ratings (Array)
-	* Array with data 
-	- see input options above
-* returnArray (boolean)
-	* If true, the method returns an array
-	* If false, the method returns an object
-	** see output options above
+* `ratings (Array)`
+	* `Array` with data 
+	* See [Input](#input) (above)
+* `returnArray (boolean)`
+	* If `true`,  the method returns an `Array`
+	* If `false`, the method returns an `object`
+	** See [Output](#output) (above)
 
